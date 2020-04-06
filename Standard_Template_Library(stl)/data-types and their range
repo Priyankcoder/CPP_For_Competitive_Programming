@@ -1,0 +1,28 @@
+DATA TYPE	       SIZE (IN BYTES)	RANGE
+short int	               2	-32,768 to 32,767                       (-3*e4 to +3*e4) 
+
+unsigned short int	       2	0 to 65,535                             ( 0 t0 6*e4 )
+
+unsigned int	               4	0 to 4,294,967,295                      ( 0 to 4*e9)
+
+int	                       4	-2,147,483,648 to 2,147,483,647         (-2*e9 to 2*e9)
+
+long int	               4	-2,147,483,648 to 2,147,483,647         (-2*e9 to 2*e9)
+
+unsigned long int	       4	0 to 4,294,967,295                      ( 0 to 4*e9)
+
+long long int	               8	-(2^63) to (2^63)-1                     (-9*e18 to +9*e18)
+
+unsigned long long int	       8	0 to 18,446,744,073,709,551,615         ( 0 t0 e19)
+
+signed char	               1	-128 to 127 
+
+unsigned char	               1	0 to 255
+
+float	                       4	
+
+double                         8	
+
+long double	              12	
+
+wchar_t                    2 or 4	 1 wide character
