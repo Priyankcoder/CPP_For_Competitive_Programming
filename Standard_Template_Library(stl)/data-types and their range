@@ -26,3 +26,6 @@ double                         8
 long double	              12	
 
 wchar_t                    2 or 4	 1 wide character
+
+
+Note: Global int array and global bool array are initialised with 0.
